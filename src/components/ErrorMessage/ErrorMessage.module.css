@@ -1,0 +1,9 @@
+.text {
+   width: 500px;
+   margin: auto;
+   margin-top: 100px;
+   font-size: var(--font-size-header);
+   text-align: center;
+   color: var(--color-text-r-m);
+   text-shadow: 1px 1px 2px rgba(115, 255, 0, 0.959), 0 0 1em rgb(0, 255, 21), 0 0 0.2em rgb(132, 0, 255);
+}

@@ -1,0 +1,15 @@
+:root {
+   --color-background: rgba(7, 6, 6, 0.829);
+   --color-text-r-m: rgb(97, 243, 231);
+
+   --font-size-header: 26px;
+   --font-size-main: 26px;
+
+   --width-max: 1200px;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: var(--color-background);
+}

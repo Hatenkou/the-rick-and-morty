@@ -1,0 +1,26 @@
+.header__item {
+   padding: 0;
+   margin: 0;
+   color: rgb(18, 136, 83);
+}
+.list__item {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   color: white;
+   padding: 5px;
+   border-radius: 3px;
+   background: rgb(18, 136, 83);
+}
+.item__episode {
+   color: white;
+   padding: 5px;
+   border-radius: 3px;
+   background: rgb(18, 136, 83);
+}
+.item__colon {
+   width: 20px;
+   font-weight: bold;
+   text-align: center;
+}
