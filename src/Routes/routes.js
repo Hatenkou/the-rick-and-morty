@@ -37,7 +37,7 @@ export const pablicRoutes = [
    },
    {
       path: "*",
-      exact: false,
+      exact: true,
       Component: NotFoundPage
    },
 
