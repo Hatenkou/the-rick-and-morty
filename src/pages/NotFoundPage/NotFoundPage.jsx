@@ -1,20 +1,18 @@
-import React from "react"
-import { useLocation } from "react-router-dom";
-import styles from "./NotFoundPage.module.css"
-import NotFound from "../../img/not-found.png"
-import PersonLinkBack from "../../components/PersonPage/PersonLinkBack/PersonLinkBack";
+import { useLocation } from 'react-router-dom';
+import PersonLinkBack from '../../components/PersonPage/PersonLinkBack/PersonLinkBack';
+import img from '../../img/not-found.png';
+import styles from './NotFoundPage.module.css';
 
 const NotFoundPage = () => {
    let location = useLocation();
 
    return (
-      <div className={styles.wrapper}>
-         <img src={NotFound} alt={'Not Found'} />
-         <h3 className={styles.text}>No math for{location.pathname}</h3>
+      <>
+         <img className={styles.img} src={img} alt="Not Found" />
+         <p className={styles.text}>No match for <u>{location.pathname}</u></p>
          <PersonLinkBack />
-      </div>
-   );
-
-};
+      </>
+   )
+}
 
 export default NotFoundPage;

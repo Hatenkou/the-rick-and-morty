@@ -1,6 +1,6 @@
 import React from "react"
 import { Redirect, Route, Switch } from "react-router-dom";
-import { CHARACTERS_ROUT } from "../utils/consts";
+import { CHARACTERS_ROUT, CHARACTERS_ROUT_PAGE } from "../utils/consts";
 import { pablicRoutes } from "./routes";
 
 const AppRouter = () => {
@@ -13,7 +13,7 @@ const AppRouter = () => {
                exact={exact}
             />
          )}
-         <Redirect to={CHARACTERS_ROUT} />
+         <Redirect to={CHARACTERS_ROUT_PAGE} />
       </Switch>
    );
 
