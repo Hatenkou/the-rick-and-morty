@@ -1,5 +1,4 @@
-Link https://hatenkou.github.io/characters/?page=1
-
+Link https://hatenkou.github.io/the-rick-and-morty/
 
 This project uses react technology
 
